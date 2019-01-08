@@ -2,9 +2,10 @@
   "name": "noted",
   "version": "1.0.0",
   "description": "CRUD note-taking app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/dvale94/Noted/issues"
   },
-  "homepage": "https://github.com/dvale94/Noted#readme"
+  "homepage": "https://github.com/dvale94/Noted#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
